@@ -74,3 +74,9 @@ a#google:visited {
 ul + a {
     color: blue;
 }
+
+input ~ textarea {
+    background: transparent;
+    border-color: white;
+    border-width: 3px;
+}
