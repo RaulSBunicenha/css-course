@@ -7,7 +7,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.title {
+/* .title {
     background: red;
 }
 
@@ -16,13 +16,37 @@ body {
 }
 
 #title {
-    /* background: green; */
+    background: green;
 }
 
 h1 {
-    /* background: blue !important; */
+    background: blue !important;
 }
 
 [data-prop="hi"] {
     background: blue;
+} */
+
+ul {
+    list-style: decimal;
+}
+
+li {
+    text-transform: uppercase;
+}
+
+li:first-child {
+    text-transform: capitalize;
+}
+
+li:last-child {
+    text-transform: capitalize;
+}
+
+li:nth-child(3) {
+    text-decoration: line-through;
+}
+
+li:only-child {
+    color: red;
 }
