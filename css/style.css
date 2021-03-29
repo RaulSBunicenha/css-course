@@ -71,7 +71,7 @@ a#google:visited {
     color: red;
 } */
 
-ul + a {
+/* ul + a {
     color: blue;
 }
 
@@ -79,4 +79,8 @@ input ~ textarea {
     background: transparent;
     border-color: white;
     border-width: 3px;
+} */
+
+ul > li {
+    color: blue;
 }
