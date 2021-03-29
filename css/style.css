@@ -51,7 +51,7 @@ li:only-child {
     color: red;
 } */
 
-li:nth-child(even) {
+/* li:nth-child(even) {
     text-decoration: line-through;
 }
 
@@ -69,4 +69,8 @@ a#google:link {
 
 a#google:visited {
     color: red;
+} */
+
+ul + a {
+    color: blue;
 }
