@@ -27,7 +27,7 @@ h1 {
     background: blue;
 } */
 
-ul {
+/* ul {
     list-style: decimal;
 }
 
@@ -49,4 +49,12 @@ li:nth-child(3) {
 
 li:only-child {
     color: red;
+} */
+
+li:nth-child(even) {
+    text-decoration: line-through;
+}
+
+li:nth-child(odd) {
+    text-transform: uppercase;
 }
