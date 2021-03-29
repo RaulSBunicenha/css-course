@@ -11,10 +11,18 @@ body {
     background: red;
 }
 
+.title:hover {
+    background: green;
+}
+
 #title {
     /* background: green; */
 }
 
 h1 {
     /* background: blue !important; */
+}
+
+[data-prop="hi"] {
+    background: blue;
 }
