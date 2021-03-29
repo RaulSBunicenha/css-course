@@ -58,3 +58,15 @@ li:nth-child(even) {
 li:nth-child(odd) {
     text-transform: uppercase;
 }
+
+a#google {
+    color: white;
+}
+
+a#google:link {
+    color: blue;
+}
+
+a#google:visited {
+    color: red;
+}
