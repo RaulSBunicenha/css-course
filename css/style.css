@@ -6,3 +6,15 @@ body {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.title {
+    background: red;
+}
+
+#title {
+    /* background: green; */
+}
+
+h1 {
+    /* background: blue !important; */
+}
